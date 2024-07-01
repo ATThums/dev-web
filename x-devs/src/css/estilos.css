@@ -61,12 +61,13 @@ body {
 
 .cartao {
     opacity: 0;
-    background-color: red;
     height: 100%;
     position: absolute;
     padding: 12px;
     border-radius: 10px;
     transition: opacity .3s ease-in-out;
+    box-shadow: 0 0 8px 5px rgba(255, 217, 0, 0.558);
+    border: 1px solid gold;
 
     display: flex;
     flex-direction: column;
@@ -116,25 +117,17 @@ body {
 }
 
 .cartao.fundo-1 {
-    background: url('../imagens/fundo-1.jpg') no-repeat;
+    background: url('../imagem/fundo-1.jpg') no-repeat;
 }
 
 .cartao.fundo-2 {
-    background: url('../imagens/fundo-2.jpg') no-repeat;
+    background: url('../imagem/fundo-2.jpg') no-repeat;
 }
 
 .cartao.fundo-3 {
-    background: url('../imagens/fundo-3.jpg') no-repeat;
+    background: url('../imagem/fundo-3.jpg') no-repeat;
 }
 
 .cartao.fundo-4 {
-    background: url('../imagens/fundo-4.jpg') no-repeat;
-}
-
-.cartao.fundo-5 {
-    background: url('../imagens/fundo-5.jpg') no-repeat;
-}
-
-.cartao.fundo-6 {
-    background: url('../imagens/fundo-6.jpg') no-repeat;
+    background: url('../imagem/fundo-4.jpg') no-repeat;
 }
